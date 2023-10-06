@@ -8,6 +8,9 @@ For testing purposes, the scanner will be tested using a testing driver implemen
 Implement your own tester and include as a part of the project. The tester will call for one token at a time and display the token to the screen one per line, including information (descriptive) on what token class, what token instance, and what line, if applicable.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+make to compile
+make clean to remove object files and executables
+
 Invocation:
     scanner [file]
 to read from stdin or file file.input1
