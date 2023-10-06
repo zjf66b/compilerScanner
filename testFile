@@ -1,0 +1,28 @@
+begin end do while whole label return input output program warp if then pick declare assign func 
+
+=  <  > == != : :=  +  -  *  /   ^  . (  ) , { } ; [ ] || &&
+
+_2_IDtk
+===
+_dog_
+
+_Dog1  
+
+#Multi-Line Comment#
+# Case sensitive
+Each scanner error should display "SCANNER ERROR: " followed by details including the line number if counted
+Alphabet
+all English letters (upper and lower), digits, plus the extra characters as seen below, plus WS
+No other characters allowed and they should generate errors
+Identifiers
+begin with an upper or lower case letter or underscore
+continue with any number of letters (uppercase or lowercase) or digits, 8 significant total
+you may assume no identifier is longer than 8 characters (in testing)
+Keywords (reserved, suggested individual tokens)
+begin end do while whole label return input output program warp if then pick declare assign func 
+Operators and delimiters group (all single character except ==  := != || && )
+=  <  > == != : :=  +  -  *  /   ^  . (  ) , { } ; [ ] || &&
+Integers
+any sequence of decimal digits, no sign, no decimal point, up to 8 significant
+you may assume no number longer than 8 characters (in testing)
+Comments start with and # end with # and can cross multiple lines.#
